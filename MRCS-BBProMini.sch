@@ -5764,14 +5764,14 @@ http://freedomdefined.org/OSHW   Creative Commons - Attribution - ShareAlike 3.0
 <part name="OSHW1" library="SPCoast" deviceset="DOC-OSHW-LOGO-" device="M" value="DOC-OSHW-LOGO-M"/>
 <part name="SUPPLY2" library="supply2" deviceset="+9V" device=""/>
 <part name="V12" library="supply2" deviceset="GND" device=""/>
-<part name="J1" library="SPCoast" deviceset="CONNECTOR-DC-POWER" device="-RA"/>
+<part name="J1" library="SPCoast" deviceset="CONNECTOR-DC-POWER" device="-RA" value="2.1mm"/>
 <part name="LABEL1" library="SPCoast" deviceset="DOC-POWER_LABEL" device="" value="7-12vDC"/>
 <part name="C3" library="SPCoast" deviceset="CAP*" device="PTH1" value="10uF"/>
 <part name="C2" library="SPCoast" deviceset="CAP*" device="PTH1" value="1.0uF"/>
 <part name="VR5.0" library="SPCoast" deviceset="VREG-?-*" device="PTH-RA" technology="5" value="5v"/>
 <part name="VCC8" library="supply1" deviceset="VCCIO" device=""/>
 <part name="C1" library="SPCoast" deviceset="CAP-POL*" device="PTH-5MM" value="150uF"/>
-<part name="BBLEO" library="SPCoast" deviceset="ARDUINO-BBLEO" device=""/>
+<part name="BBLEO" library="SPCoast" deviceset="ARDUINO-BBLEO" device="" value="Footprint"/>
 <part name="V2" library="supply2" deviceset="GND" device=""/>
 <part name="VCC3" library="supply1" deviceset="VCCIO" device=""/>
 <part name="ARDUINO1" library="SPCoast" deviceset="ARDUINO-PRO-MINI" device="DAVESROBOT"/>
