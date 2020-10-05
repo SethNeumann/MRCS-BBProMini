@@ -5777,7 +5777,7 @@ http://freedomdefined.org/OSHW   Creative Commons - Attribution - ShareAlike 3.0
 <part name="ARDUINO1" library="SPCoast" deviceset="ARDUINO-PRO-MINI" device="DAVESROBOT"/>
 <part name="V1" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="+9V" device=""/>
-<part name="JP1" library="SPCoast" deviceset="JUMPER-2" device="SMD-NO"/>
+<part name="JP1" library="SPCoast" deviceset="JUMPER-2" device="SMD-NO" value="OFF"/>
 <part name="VCC1" library="supply1" deviceset="VCCIO" device=""/>
 </parts>
 <sheets>
