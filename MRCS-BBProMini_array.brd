@@ -726,7 +726,7 @@ design rules under a new name.
 </pass>
 </autorouter>
 <elements>
-<element name="ARDUINO1X11" library="SPCoast" package="ARDUINO_PRO_MINI_DAVEK" value="ARDUINO_PRO_MINI_DAVEK" x="39.37" y="26.67" rot="R270"/>
+<element name="ARDUINO1X11" library="SPCoast" package="ARDUINO_PRO_MINI_DAVEK" value="DAVEK" x="39.37" y="26.67" rot="R270"/>
 <element name="BBLEOX11" library="SPCoast" package="ARDUINO-BBLEO" value="Footprint" x="0" y="0"/>
 <element name="C1X11" library="SPCoast" package="E5-10.5" value="150uF" x="15.875" y="18.415" rot="R90"/>
 <element name="C2X11" library="SPCoast" package="C050-024X044" value="1.0uF" x="3.175" y="27.305" rot="R90"/>
@@ -736,7 +736,7 @@ design rules under a new name.
 <element name="LABEL1X11" library="SPCoast" package="PWR_LABEL" value="7-12vDC" x="20.32" y="6.985" rot="R90"/>
 <element name="OSHW1X11" library="SPCoast" package="OSHW-LOGO-M" value="OSHW" x="34.29" y="11.43"/>
 <element name="VR5.0X11" library="SPCoast" package="TO-220-RA-SINK" value="5v" x="6.35" y="23.495" rot="R270"/>
-<element name="ARDUINO1X12" library="SPCoast" package="ARDUINO_PRO_MINI_DAVEK" value="ARDUINO_PRO_MINI_DAVEK" x="39.37" y="59.944" rot="R270"/>
+<element name="ARDUINO1X12" library="SPCoast" package="ARDUINO_PRO_MINI_DAVEK" value="DAVEK" x="39.37" y="59.944" rot="R270"/>
 <element name="BBLEOX12" library="SPCoast" package="ARDUINO-BBLEO" value="Footprint" x="0" y="33.274"/>
 <element name="C1X12" library="SPCoast" package="E5-10.5" value="150uF" x="15.875" y="51.689" rot="R90"/>
 <element name="C2X12" library="SPCoast" package="C050-024X044" value="1.0uF" x="3.175" y="60.579" rot="R90"/>
@@ -746,7 +746,7 @@ design rules under a new name.
 <element name="LABEL1X12" library="SPCoast" package="PWR_LABEL" value="7-12vDC" x="20.32" y="40.259" rot="R90"/>
 <element name="OSHW1X12" library="SPCoast" package="OSHW-LOGO-M" value="OSHW" x="34.29" y="44.704"/>
 <element name="VR5.0X12" library="SPCoast" package="TO-220-RA-SINK" value="5v" x="6.35" y="56.769" rot="R270"/>
-<element name="ARDUINO1X13" library="SPCoast" package="ARDUINO_PRO_MINI_DAVEK" value="ARDUINO_PRO_MINI_DAVEK" x="39.37" y="93.218" rot="R270"/>
+<element name="ARDUINO1X13" library="SPCoast" package="ARDUINO_PRO_MINI_DAVEK" value="DAVEK" x="39.37" y="93.218" rot="R270"/>
 <element name="BBLEOX13" library="SPCoast" package="ARDUINO-BBLEO" value="Footprint" x="0" y="66.548"/>
 <element name="C1X13" library="SPCoast" package="E5-10.5" value="150uF" x="15.875" y="84.963" rot="R90"/>
 <element name="C2X13" library="SPCoast" package="C050-024X044" value="1.0uF" x="3.175" y="93.853" rot="R90"/>

@@ -5761,7 +5761,7 @@ http://freedomdefined.org/OSHW   Creative Commons - Attribution - ShareAlike 3.0
 </classes>
 <parts>
 <part name="FRAME1" library="MCP" deviceset="FRAME-LETTER" device=""/>
-<part name="OSHW1" library="SPCoast" deviceset="DOC-OSHW-LOGO-" device="M" value="DOC-OSHW-LOGO-M"/>
+<part name="OSHW1" library="SPCoast" deviceset="DOC-OSHW-LOGO-" device="M" value="OSHW"/>
 <part name="SUPPLY2" library="supply2" deviceset="+9V" device=""/>
 <part name="V12" library="supply2" deviceset="GND" device=""/>
 <part name="J1" library="SPCoast" deviceset="CONNECTOR-DC-POWER" device="-RA" value="2.1mm"/>
@@ -5774,7 +5774,7 @@ http://freedomdefined.org/OSHW   Creative Commons - Attribution - ShareAlike 3.0
 <part name="BBLEO" library="SPCoast" deviceset="ARDUINO-BBLEO" device="" value="Footprint"/>
 <part name="V2" library="supply2" deviceset="GND" device=""/>
 <part name="VCC3" library="supply1" deviceset="VCCIO" device=""/>
-<part name="ARDUINO1" library="SPCoast" deviceset="ARDUINO-PRO-MINI" device="DAVESROBOT"/>
+<part name="ARDUINO1" library="SPCoast" deviceset="ARDUINO-PRO-MINI" device="DAVESROBOT" value="DAVEK"/>
 <part name="V1" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="+9V" device=""/>
 <part name="JP1" library="SPCoast" deviceset="JUMPER-2" device="SMD-NO" value="OFF"/>
