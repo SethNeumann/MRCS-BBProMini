@@ -8,21 +8,21 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="2" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="17" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="30" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="30" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="49" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="34" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="22" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -41,12 +41,12 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="3" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="35" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="21" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="2" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="35" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="1" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="21" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="22" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -67,10 +67,10 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="Anatomie" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Hidden" color="57" fill="4" visible="yes" active="yes"/>
-<layer number="102" name="Changes" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Hidden" color="57" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Changes" color="13" fill="1" visible="no" active="yes"/>
 <layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
 <layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
@@ -160,30 +160,30 @@
 <text x="34.782" y="24.9682" size="1.27" layer="52" rot="MR0">Made in the PCR,
 Coast Division, NMRA</text>
 <text x="66.2768" y="0.9202" size="1.27" layer="52" font="vector" ratio="15" rot="MR0">www. SP Coast .com</text>
-<text x="44.8978" y="22.733" size="3.81" layer="52" font="vector" ratio="15" rot="SMR180">bbNode
+<text x="66.8622" y="14.097" size="3.81" layer="52" font="vector" ratio="15" rot="SMR0">bbNode
 Pro Mini</text>
 <text x="71.3379" y="29.9013" size="1.4224" layer="52" font="vector" rot="MR270">Model Railroading is fun!</text>
 <text x="28.067" y="19.447" size="1.4224" layer="52" font="vector" ratio="15" rot="MR243">Go Bears!</text>
-<text x="57.77024375" y="20.365259375" size="1.016" layer="51">John Plocher</text>
-<text x="1.42875" y="1.80975" size="1.27" layer="51">VIN</text>
-<text x="17.3896" y="1.54305" size="1.27" layer="51" ratio="10" rot="SR0">1.0A</text>
-<text x="11.22535625" y="24.087028125" size="2.286" layer="51" ratio="15" rot="SR0">bbNode ProMini</text>
-<text x="33.7877" y="7.9882" size="1.4224" layer="52" font="vector" ratio="15" rot="SMR180">For use with DFRobot Pro Mini</text>
-<text x="61.70724375" y="18.587759375" size="1.016" layer="51">2019.08</text>
+<text x="53.96024375" y="14.650259375" size="1.016" layer="21">John Plocher</text>
+<text x="1.42875" y="1.80975" size="1.27" layer="21">VIN</text>
+<text x="17.3896" y="1.54305" size="1.27" layer="21" ratio="10" rot="SR0">1.0A</text>
+<text x="11.22535625" y="24.087028125" size="2.286" layer="21" ratio="15" rot="SR0">bbNode ProMini</text>
+<text x="67.8123" y="7.2518" size="1.4224" layer="52" font="vector" ratio="15" rot="SMR0">For use with DFRobot Pro Mini</text>
+<text x="32.49724375" y="19.857759375" size="1.016" layer="21">2021.06</text>
 <text x="51.91125" y="16.28775" size="1.27" layer="21">DFRobot ProMini</text>
-<text x="34.02124375" y="22.143259375" size="1.4224" layer="51">v1.0</text>
+<text x="34.02124375" y="22.143259375" size="1.4224" layer="21">v1.1</text>
 <wire x1="0" y1="0" x2="0" y2="33.274" width="0" layer="20"/>
 <wire x1="0" y1="33.274" x2="72.39" y2="33.274" width="0" layer="20"/>
 <wire x1="72.39" y1="33.274" x2="72.39" y2="0" width="0" layer="20"/>
 <wire x1="72.39" y1="0" x2="0" y2="0" width="0" layer="20"/>
-<text x="71.76975625" y="32.974740625" size="1.4224" layer="51" rot="R180">BBLeo Footprint</text>
+<text x="69.22975625" y="24.084740625" size="1.4224" layer="21" rot="R180">BBLeo Footprint</text>
 <wire x1="0.635" y1="17.145" x2="16.51" y2="1.905" width="2.54" layer="52"/>
 <wire x1="0.635" y1="30.48" x2="29.845" y2="1.27" width="2.54" layer="52"/>
 <wire x1="1.27" y1="17.145" x2="11.43" y2="27.305" width="3.81" layer="52"/>
 <wire x1="5.715" y1="4.445" x2="20.32" y2="20.32" width="3.81" layer="52"/>
 <wire x1="16.51" y1="1.905" x2="27.305" y2="11.43" width="3.81" layer="52"/>
-<text x="11.22535625" y="27.262028125" size="2.286" layer="51" ratio="15" rot="SR0">MRCS</text>
-<text x="51.8828" y="5.588" size="2.54" layer="52" font="vector" ratio="15" rot="SMR180">MRCS</text>
+<text x="11.22535625" y="27.262028125" size="2.286" layer="21" ratio="15" rot="SR0">MRCS</text>
+<text x="62.4172" y="3.302" size="2.54" layer="52" font="vector" ratio="15" rot="SMR0">MRCS</text>
 <text x="14.17" y="16.845" size="1.27" layer="125" font="vector" rot="R180">C1</text>
 <text x="2.467634375" y="31.13755625" size="1.27" layer="125" font="vector" rot="R180">C2</text>
 <text x="0.312825" y="15.924809375" size="1.27" layer="125" font="vector">C3</text>
@@ -219,26 +219,22 @@ Pro Mini</text>
 <package name="DCJ0202">
 <description>DC POWER JACK
 Source: DCJ0202.pdf</description>
-<wire x1="-4.3" y1="-10.4" x2="4.3" y2="-10.4" width="0.2032" layer="21"/>
-<wire x1="4.3" y1="-10.4" x2="4.3" y2="3.9" width="0.2032" layer="51"/>
-<wire x1="4.3" y1="3.9" x2="-4.3" y2="3.9" width="0.2032" layer="51"/>
-<wire x1="-4.3" y1="3.9" x2="-4.3" y2="-10.4" width="0.2032" layer="21"/>
 <wire x1="-2.7" y1="3.9" x2="-4.3" y2="3.9" width="0.2032" layer="21"/>
 <wire x1="4.3" y1="3.9" x2="2.7" y2="3.9" width="0.2032" layer="21"/>
-<wire x1="-3" y1="-10.275" x2="-3" y2="-3" width="0.2032" layer="51" style="shortdash"/>
-<wire x1="3" y1="-10.3" x2="3" y2="-3" width="0.2032" layer="51" style="shortdash"/>
+<wire x1="-3" y1="-10.275" x2="-3" y2="-3" width="0.2032" layer="21" style="shortdash"/>
+<wire x1="3" y1="-10.3" x2="3" y2="-3" width="0.2032" layer="21" style="shortdash"/>
 <wire x1="3" y1="-3" x2="-3" y2="-3" width="0.2032" layer="51" style="shortdash"/>
-<wire x1="-0.9" y1="-9" x2="-0.9" y2="-4.5" width="0.2032" layer="51" style="shortdash"/>
-<wire x1="0.9" y1="-9" x2="0.9" y2="-4.5" width="0.2032" layer="51" style="shortdash"/>
-<wire x1="-0.9" y1="-9" x2="0.9" y2="-9" width="0.2032" layer="51" curve="166.57811"/>
-<wire x1="4.3" y1="-10.4" x2="4.3" y2="-2.45" width="0.2032" layer="21"/>
-<wire x1="4.3" y1="2.3" x2="4.3" y2="3.9" width="0.2032" layer="21"/>
-<wire x1="-4.3" y1="3.9" x2="-4.3" y2="-10.4" width="0.2032" layer="51"/>
-<wire x1="-4.3" y1="-10.4" x2="4.3" y2="-10.4" width="0.2032" layer="51"/>
+<wire x1="-0.9" y1="-9" x2="-0.9" y2="-5.588" width="0.2032" layer="21" style="shortdash"/>
+<wire x1="0.9" y1="-9" x2="0.9" y2="-5.588" width="0.2032" layer="21" style="shortdash"/>
+<wire x1="-0.9" y1="-9" x2="0.9" y2="-9" width="0.2032" layer="21" curve="166.57811"/>
+<wire x1="4.3" y1="-10.4" x2="4.3" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="4.3" y1="2.54" x2="4.3" y2="3.9" width="0.2032" layer="21"/>
+<wire x1="-4.3" y1="3.9" x2="-4.3" y2="-10.4" width="0.2032" layer="21"/>
+<wire x1="-4.3" y1="-10.4" x2="4.3" y2="-10.4" width="0.2032" layer="21"/>
 <pad name="1" x="0" y="3.175" drill="3.1" diameter="4.5" shape="octagon"/>
 <pad name="3" x="0" y="-3.175" drill="3.1" diameter="4.7"/>
 <pad name="2" x="4.7625" y="0" drill="3.1" diameter="4.7"/>
-<text x="-3.81" y="5.08" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="-5.08" y="-10.16" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 <package name="E5-10.5">
@@ -265,8 +261,7 @@ Source: DCJ0202.pdf</description>
 <wire x1="-3.81" y1="1.651" x2="-3.81" y2="0.889" width="0.1524" layer="21"/>
 <wire x1="4.571" y1="1.27" x2="3.809" y2="1.27" width="0.1524" layer="21"/>
 </package>
-<package name="TO-220-RA-SINK">
-<description>VOLTAGE REGULATOR with heatsink</description>
+<package name="TO-220-RA">
 <wire x1="5.08" y1="-1.905" x2="-5.08" y2="-1.905" width="0.2032" layer="21"/>
 <wire x1="-5.08" y1="-1.905" x2="-5.08" y2="1.905" width="0.2032" layer="21"/>
 <wire x1="-5.08" y1="1.905" x2="-5.08" y2="2.54" width="0.2032" layer="21"/>
@@ -274,18 +269,11 @@ Source: DCJ0202.pdf</description>
 <wire x1="5.08" y1="2.54" x2="5.08" y2="1.905" width="0.2032" layer="21"/>
 <wire x1="5.08" y1="1.905" x2="5.08" y2="-1.905" width="0.2032" layer="21"/>
 <wire x1="5.08" y1="1.905" x2="-5.08" y2="1.905" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="2.54" x2="8.255" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="8.255" y1="2.54" x2="8.255" y2="-5.715" width="0.2032" layer="51"/>
-<wire x1="8.255" y1="-5.715" x2="9.525" y2="-5.715" width="0.2032" layer="51"/>
-<wire x1="9.525" y1="-5.715" x2="9.525" y2="3.81" width="0.2032" layer="51"/>
-<wire x1="9.525" y1="3.81" x2="-9.525" y2="3.81" width="0.2032" layer="51"/>
-<wire x1="-9.525" y1="3.81" x2="-9.525" y2="-5.715" width="0.2032" layer="51"/>
-<wire x1="-9.525" y1="-5.715" x2="-8.255" y2="-5.715" width="0.2032" layer="51"/>
-<wire x1="-8.255" y1="-5.715" x2="-8.255" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="-8.255" y1="2.54" x2="-5.08" y2="2.54" width="0.2032" layer="51"/>
 <pad name="IN" x="-2.54" y="0" drill="1" diameter="1.8796" shape="square"/>
 <pad name="GND" x="0" y="0" drill="1" diameter="1.8796"/>
 <pad name="OUT" x="2.54" y="0" drill="1" diameter="1.8796"/>
+<text x="-4.445" y="3.175" size="0.4064" layer="25">&gt;NAME</text>
+<text x="2.54" y="3.175" size="0.4064" layer="27">VALUE</text>
 </package>
 <package name="ARDUINO-BBLEO">
 <pad name="GND@1" x="43.18" y="5.08" drill="0.8" shape="octagon"/>
@@ -331,10 +319,10 @@ Source: DCJ0202.pdf</description>
 BBLeo</text>
 </package>
 <package name="ARDUINO_PRO_MINI_DAVEK">
-<wire x1="17.145" y1="39.1668" x2="17.145" y2="30.0736" width="0.127" layer="51"/>
-<wire x1="17.145" y1="30.0736" x2="0.635" y2="30.0736" width="0.127" layer="51"/>
-<wire x1="0.635" y1="30.0736" x2="0.635" y2="39.1668" width="0.127" layer="51"/>
-<wire x1="0.635" y1="39.1668" x2="17.145" y2="39.1668" width="0.127" layer="51"/>
+<wire x1="17.145" y1="39.1668" x2="17.145" y2="30.0736" width="0.127" layer="49"/>
+<wire x1="17.145" y1="30.0736" x2="0.635" y2="30.0736" width="0.127" layer="49"/>
+<wire x1="0.635" y1="30.0736" x2="0.635" y2="39.1668" width="0.127" layer="49"/>
+<wire x1="0.635" y1="39.1668" x2="17.145" y2="39.1668" width="0.127" layer="49"/>
 <pad name="RES" x="16.51" y="24.13" drill="1.016" rot="R90"/>
 <pad name="5V" x="16.51" y="21.59" drill="1.016" rot="R90"/>
 <pad name="GND@4" x="1.27" y="21.59" drill="1.016" rot="R90"/>
@@ -360,7 +348,7 @@ BBLeo</text>
 <text x="19.1643" y="23.622" size="1.016" layer="49" ratio="15">RST</text>
 <text x="19.1643" y="28.702" size="1.016" layer="49" ratio="15">VIN</text>
 <text x="-1.3843" y="29.718" size="1.016" layer="49" ratio="15" rot="R180">TX</text>
-<text x="7.239" y="32.2707" size="1.016" layer="51" ratio="15">FTDI</text>
+<text x="7.239" y="32.2707" size="1.016" layer="21" ratio="15">FTDI</text>
 <text x="19.05" y="8.382" size="1.016" layer="49" ratio="15">13</text>
 <text x="19.05" y="5.842" size="1.016" layer="49" ratio="15">12</text>
 <text x="19.05" y="3.302" size="1.016" layer="49" ratio="15">11</text>
@@ -374,8 +362,8 @@ BBLeo</text>
 <text x="-1.27" y="17.018" size="1.016" layer="49" ratio="15" rot="R180">3</text>
 <text x="-1.27" y="19.558" size="1.016" layer="49" ratio="15" rot="R180">2</text>
 <text x="-1.27" y="27.178" size="1.016" layer="49" ratio="15" rot="R180">RX</text>
-<wire x1="17.5768" y1="33.655" x2="17.5768" y2="0" width="0.127" layer="51"/>
-<wire x1="17.5768" y1="0" x2="0.2286" y2="0" width="0.127" layer="51"/>
+<wire x1="17.5768" y1="33.655" x2="17.5768" y2="0" width="0.127" layer="21"/>
+<wire x1="17.5768" y1="0" x2="0.2286" y2="0" width="0.127" layer="21"/>
 <pad name="AD3" x="16.51" y="19.05" drill="1.016" rot="R90"/>
 <pad name="AD2" x="16.51" y="16.51" drill="1.016" rot="R90"/>
 <pad name="AD1" x="16.51" y="13.97" drill="1.016" rot="R90"/>
@@ -384,8 +372,8 @@ BBLeo</text>
 <text x="19.1635375" y="16.002" size="1.016" layer="49" ratio="15">A2</text>
 <text x="19.1635375" y="13.462" size="1.016" layer="49" ratio="15">A1</text>
 <text x="19.1635375" y="10.922" size="1.016" layer="49" ratio="15">A0</text>
-<wire x1="0.2286" y1="0" x2="0.2286" y2="33.655" width="0.127" layer="51"/>
-<wire x1="0.2286" y1="33.655" x2="17.5768" y2="33.655" width="0.127" layer="51"/>
+<wire x1="0.2286" y1="0" x2="0.2286" y2="33.655" width="0.127" layer="21"/>
+<wire x1="0.2286" y1="33.655" x2="17.5768" y2="33.655" width="0.127" layer="21"/>
 <pad name="RES@1" x="1.27" y="24.13" drill="1.016" rot="R90"/>
 <text x="-1.3843" y="24.638" size="1.016" layer="49" ratio="15" rot="R180">RST</text>
 <pad name="AD4" x="13.97" y="17.78" drill="1.016" rot="R90"/>
@@ -409,23 +397,10 @@ ProMini '328</text>
 <vertex x="17.145" y="29.845"/>
 <vertex x="0.635" y="29.845"/>
 </polygon>
-<text x="13.208" y="31.0007" size="1.016" layer="51" ratio="10">GND
+<text x="13.208" y="31.0007" size="1.016" layer="21" ratio="10">GND
 Black</text>
 <pad name="GND@2" x="8.89" y="1.27" drill="1.016" rot="R90"/>
 <text x="9.398" y="2.6543" size="1.016" layer="49" ratio="15" rot="R90">GND</text>
-</package>
-<package name="SJ_2S-NO">
-<description>Small solder jumper with no paste layer so it will open after reflow.</description>
-<wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="1" x2="1" y2="0.7" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1" y1="0.7" x2="-0.8" y2="1" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1" y1="-0.7" x2="-0.8" y2="-1" width="0.2032" layer="21" curve="90"/>
-<wire x1="0.8" y1="-1" x2="1" y2="-0.7" width="0.2032" layer="21" curve="90"/>
-<wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.2032" layer="21"/>
-<smd name="1" x="-0.45" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.45" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<text x="-0.908" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.908" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
 <package name="OSHW-LOGO-M">
 <polygon width="0.15" layer="21">
@@ -465,13 +440,27 @@ Black</text>
 </polygon>
 </package>
 <package name="PWR_LABEL">
-<wire x1="0.3175" y1="0.635" x2="-0.3175" y2="0.635" width="0.127" layer="51" curve="-306.869898"/>
-<wire x1="0" y1="0.3175" x2="0" y2="1.27" width="0.127" layer="51"/>
-<wire x1="0" y1="-0.7366" x2="0" y2="-1.905" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="0.3175" width="0.127" layer="51"/>
-<text x="-1.27" y="-3.175" size="1.27" layer="51" rot="R90">&gt;VALUE</text>
-<text x="0.3175" y="-2.54" size="1.27" layer="51" rot="R90">-</text>
-<text x="0.3175" y="1.5875" size="1.27" layer="51" rot="R90">+</text>
+<wire x1="0.3175" y1="0.635" x2="-0.3175" y2="0.635" width="0.127" layer="21" curve="-306.869898"/>
+<wire x1="0" y1="0.3175" x2="0" y2="1.27" width="0.127" layer="21"/>
+<wire x1="0" y1="-0.7366" x2="0" y2="-1.905" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="0.3175" width="0.127" layer="21"/>
+<text x="-1.27" y="-3.175" size="1.27" layer="21" rot="R90">&gt;VALUE</text>
+<text x="0.3175" y="-2.54" size="1.27" layer="21" rot="R90">-</text>
+<text x="0.3175" y="1.5875" size="1.27" layer="21" rot="R90">+</text>
+</package>
+<package name="AXIAL-0.3-RES">
+<wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0.762" x2="2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-0.762" x2="-2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.2032" layer="21"/>
+<pad name="P$1" x="-3.81" y="0" drill="0.9" diameter="1.8796"/>
+<pad name="P$2" x="3.81" y="0" drill="0.9" diameter="1.8796"/>
+<text x="-2.54" y="1.27" size="0.4064" layer="25">&gt;Name</text>
+<text x="-2.032" y="-0.508" size="0.8128" layer="21" ratio="15">&gt;Value</text>
 </package>
 </packages>
 </library>
@@ -678,8 +667,8 @@ design rules under a new name.</description>
 <elements>
 <element name="OSHW1" library="SPCoast" package="OSHW-LOGO-M" value="OSHW" x="34.29" y="11.43" smashed="yes"/>
 <element name="J1" library="SPCoast" package="DCJ0202" value="2.1mm" x="8.89" y="9.525" smashed="yes" rot="R270"/>
-<element name="LABEL1" library="SPCoast" package="PWR_LABEL" value="7-12vDC" x="20.32" y="6.985" smashed="yes" rot="R90">
-<attribute name="VALUE" x="15.494" y="3.937" size="1.27" layer="51"/>
+<element name="LABEL1" library="SPCoast" package="PWR_LABEL" value="7.5-12vDC" x="20.32" y="6.985" smashed="yes" rot="R90">
+<attribute name="VALUE" x="15.494" y="3.937" size="1.27" layer="21"/>
 </element>
 <element name="C3" library="SPCoast" package="C050-024X044" value="10uF" x="3.175" y="19.685" smashed="yes" rot="R270">
 <attribute name="NAME" x="0.312821875" y="15.9248" size="1.27" layer="25"/>
@@ -689,7 +678,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="2.4676375" y="31.137565625" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="0.508" y="29.464" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="VR5.0" library="SPCoast" package="TO-220-RA-SINK" value="5v" x="6.35" y="23.495" smashed="yes" rot="R270">
+<element name="VR5.0" library="SPCoast" package="TO-220-RA" value="5v" x="6.35" y="23.495" smashed="yes" rot="R270">
 <attribute name="NAME" x="8.73125" y="16.66875" size="1.27" layer="25" ratio="11" rot="R180"/>
 <attribute name="VALUE" x="6.0325" y="29.21" size="1.27" layer="27" ratio="10"/>
 </element>
@@ -699,10 +688,7 @@ design rules under a new name.</description>
 </element>
 <element name="BBLEO" library="SPCoast" package="ARDUINO-BBLEO" value="Footprint" x="0" y="0" smashed="yes"/>
 <element name="ARDUINO1" library="SPCoast" package="ARDUINO_PRO_MINI_DAVEK" value="DAVEK" x="39.37" y="26.67" smashed="yes" rot="R270"/>
-<element name="JP1" library="SPCoast" package="SJ_2S-NO" value="OFF" x="60.96" y="4.445" smashed="yes" rot="R90">
-<attribute name="NAME" x="59.69" y="3.537" size="0.4064" layer="25" rot="R90"/>
-<attribute name="VALUE" x="62.611" y="3.537" size="0.4064" layer="27" rot="R90"/>
-</element>
+<element name="R1" library="SPCoast" package="AXIAL-0.3-RES" value="2k2" x="27.94" y="16.51" rot="R180"/>
 </elements>
 <signals>
 <signal name="GND" class="2">
@@ -734,25 +720,13 @@ design rules under a new name.</description>
 <contactref element="C1" pad="+"/>
 <wire x1="3.175" y1="24.765" x2="4.445" y2="26.035" width="1.016" layer="1"/>
 <wire x1="4.445" y1="26.035" x2="6.35" y2="26.035" width="1.016" layer="1"/>
-<wire x1="12.065" y1="9.525" x2="13.97" y2="7.62" width="1.016" layer="1"/>
-<wire x1="13.97" y1="7.62" x2="13.97" y2="2.54" width="1.016" layer="1"/>
-<wire x1="13.97" y1="2.54" x2="12.7" y2="1.27" width="1.016" layer="1"/>
-<wire x1="12.7" y1="1.27" x2="6.35" y2="1.27" width="1.016" layer="1"/>
-<wire x1="6.35" y1="1.27" x2="1.016" y2="6.604" width="1.016" layer="1"/>
-<wire x1="1.016" y1="6.604" x2="1.016" y2="24.765" width="1.016" layer="1"/>
+<wire x1="1.016" y1="15.494" x2="1.016" y2="24.765" width="1.016" layer="1"/>
 <wire x1="1.016" y1="24.765" x2="3.175" y2="24.765" width="1.016" layer="1"/>
 <wire x1="12.065" y1="9.525" x2="15.875" y2="13.335" width="1.016" layer="16"/>
 <wire x1="15.875" y1="13.335" x2="15.875" y2="15.875" width="1.016" layer="16"/>
-<contactref element="ARDUINO1" pad="VIN"/>
-<via x="15.875" y="13.335" extent="1-16" drill="0.6"/>
-<wire x1="15.875" y1="13.335" x2="28.575" y2="13.335" width="0.6096" layer="1"/>
-<wire x1="28.575" y1="13.335" x2="34.29" y2="7.62" width="0.6096" layer="1"/>
-<wire x1="34.29" y1="7.62" x2="54.61" y2="7.62" width="0.6096" layer="1"/>
-<wire x1="54.61" y1="7.62" x2="57.785" y2="4.445" width="0.6096" layer="1"/>
-<wire x1="57.785" y1="4.445" x2="67.31" y2="4.445" width="0.6096" layer="16"/>
-<wire x1="67.31" y1="4.445" x2="68.58" y2="5.715" width="0.6096" layer="16"/>
-<wire x1="68.58" y1="5.715" x2="68.58" y2="10.16" width="0.6096" layer="16"/>
-<via x="57.785" y="4.445" extent="1-16" drill="0.6"/>
+<wire x1="1.016" y1="15.494" x2="1.905" y2="14.605" width="1.016" layer="1"/>
+<wire x1="1.905" y1="14.605" x2="6.985" y2="14.605" width="1.016" layer="1"/>
+<wire x1="6.985" y1="14.605" x2="12.065" y2="9.525" width="1.016" layer="1"/>
 </signal>
 <signal name="VCCIO" class="1">
 <contactref element="C3" pad="1"/>
@@ -767,7 +741,8 @@ design rules under a new name.</description>
 <contactref element="BBLEO" pad="+5V@4"/>
 <contactref element="BBLEO" pad="+5V@1"/>
 <contactref element="BBLEO" pad="+5V@2"/>
-<contactref element="JP1" pad="1"/>
+<contactref element="R1" pad="P$2"/>
+<contactref element="ARDUINO1" pad="5V"/>
 </signal>
 <signal name="RX" class="2">
 <contactref element="BBLEO" pad="RX"/>
@@ -862,6 +837,9 @@ design rules under a new name.</description>
 <wire x1="48.26" y1="22.225" x2="48.26" y2="10.16" width="0.3048" layer="1"/>
 <via x="48.26" y="22.225" extent="1-16" drill="0.6"/>
 <via x="31.115" y="22.225" extent="1-16" drill="0.6"/>
+<contactref element="R1" pad="P$1"/>
+<wire x1="31.115" y1="22.225" x2="31.75" y2="21.59" width="0.254" layer="1"/>
+<wire x1="31.75" y1="21.59" x2="31.75" y2="16.51" width="0.254" layer="1"/>
 </signal>
 <signal name="GPB4">
 <contactref element="BBLEO" pad="A2"/>
@@ -915,11 +893,6 @@ design rules under a new name.</description>
 <contactref element="ARDUINO1" pad="RES"/>
 <contactref element="ARDUINO1" pad="RES@1"/>
 <wire x1="63.5" y1="25.4" x2="63.5" y2="10.16" width="0.3048" layer="1"/>
-</signal>
-<signal name="N$1">
-<contactref element="ARDUINO1" pad="5V"/>
-<contactref element="JP1" pad="2"/>
-<wire x1="60.96" y1="10.16" x2="60.96" y2="4.895" width="0.6096" layer="1"/>
 </signal>
 </signals>
 <errors>
